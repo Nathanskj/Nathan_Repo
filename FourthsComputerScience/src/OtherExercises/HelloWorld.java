@@ -1,3 +1,4 @@
+package OtherExercises;
 
 public class HelloWorld {
 

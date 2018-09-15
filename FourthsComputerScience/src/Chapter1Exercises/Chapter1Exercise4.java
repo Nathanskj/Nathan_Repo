@@ -1,3 +1,4 @@
+package Chapter1Exercises;
 
 public class Chapter1Exercise4 {
 
@@ -5,7 +6,7 @@ public class Chapter1Exercise4 {
 		// TODO Auto-generated method stub
 		float mass = 500;
 		float velocity = 12;
-		System.out.println("The kinetic energy is: " + mass * Math.pow(velocity ,velocity) * 0.5 + " Joules");
+		System.out.println("The kinetic energy is: " + mass * Math.pow(velocity ,2) * 0.5 + " Joules");
 
 	}
 

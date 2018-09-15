@@ -1,3 +1,4 @@
+package Chapter1Exercises;
 
 public class Chapter1Exercise5 {
 
@@ -7,7 +8,7 @@ public class Chapter1Exercise5 {
 		float velocity = 25;
 		float distance = 50;
 		float force = mass * velocity;
-		double KineticEnergy = 0.5 * mass * Math.pow(velocity, velocity);
+		double KineticEnergy = 0.5 * mass * Math.pow(velocity, 2);
 		System.out.println("The energy is: " + (force * distance) + KineticEnergy + " Joules");
 
 	}
